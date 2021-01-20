@@ -1,4 +1,4 @@
-import { Client } from '@elastic/elasticsearch'
+const { Client } = require('@elastic/elasticsearch')
 
 class ElasticSearch {
     constructor(config, index) {
@@ -18,4 +18,4 @@ class ElasticSearch {
     }
 }
 
-export default ElasticSearch
+module.exports = ElasticSearch
