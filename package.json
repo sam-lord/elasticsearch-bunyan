@@ -1,0 +1,8 @@
+{
+  "name": "elasticsearch-bunyan",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:sam-lord/elasticsearch-bunyan.git",
+  "author": "Sam Lord <hello@samlord.me>",
+  "license": "MIT"
+}
