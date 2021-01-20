@@ -11,7 +11,7 @@ class ElasticSearch {
             throw new Error('Type Error: ElasticSearch transport requires log data to be an object')
         }
 
-        this.client.index({
+        await this.client.index({
             index: this.index,
             body: data
         })
